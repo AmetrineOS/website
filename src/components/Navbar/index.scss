@@ -1,0 +1,28 @@
+@import "../../_mocha.scss";
+
+.nav-bar {
+    background: rgba($crust, 0.75);
+    width: 100%;
+    height: 64px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        div {
+            a {
+                color: $surface2;
+                font-size: 32px;
+                display: flex;
+                line-height: 32px;
+                &.active {
+                    color: $lavender;
+                }
+            }
+        }
+    }
+}
