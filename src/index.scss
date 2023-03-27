@@ -1,20 +1,35 @@
 @import "_mocha.scss";
-
+@import url(https://fonts.googleapis.com/css?family=Lexend);
 body {
     margin: 0;
     font: 400 14px/1.4 "Lexend", "sans-serif";
-    background: $mantle;
     background: linear-gradient(135deg, $peach 0%, $maroon 50%, $mauve 100%);
+    // background-size: 200% 200%;
+    animation: bg-gradient 10s ease infinite;
+    background-attachment: fixed;
+    color: $rosewater;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
+}
+
+@keyframes bg-gradient {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 400%;
+    }
+    100% {
+        background-size: 100%;
+    }
 }

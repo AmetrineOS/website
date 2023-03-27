@@ -9,15 +9,15 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 let links = [
     {
         icon: faHome,
-        to: "/"
+        to: "/ametrine/"
     },
     {
         icon: faDownload,
-        to: "/downloads"
+        to: "/ametrine/downloads"
     },
     {
         icon: faGithub,
-        to: "/github"
+        to: "/ametrine/github"
     }
 ];
 

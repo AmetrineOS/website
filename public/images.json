@@ -1,0 +1,12 @@
+[
+    {
+        "url": "/ametrine-2023.03.09-x86_64.iso",
+        "title": "AmetrineOS 2023/03/09 64-bit",
+        "sha256": "505d0ffe15bb4dc8178e4a4c0bb0cdba671590106f6981cad0a23e162a08b81a"
+    },
+    {
+        "url": "/ametrine-2023.02.08-x86_64.iso",
+        "title": "AmetrineOS 2023/02/08 64-bit",
+        "sha256": "777ed06b1bf492497105fa10dcb0b3c97bdd55bd80283a93246f657dabdca324"
+    }
+]
